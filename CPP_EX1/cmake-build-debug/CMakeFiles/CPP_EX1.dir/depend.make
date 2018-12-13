@@ -5,10 +5,10 @@ CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o: ../Matrix3D.cpp
 CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o: ../Matrix3D.h
 CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o: ../Vector3D.h
 
+CMakeFiles/CPP_EX1.dir/Test.cpp.o: ../Matrix3D.h
+CMakeFiles/CPP_EX1.dir/Test.cpp.o: ../Test.cpp
+CMakeFiles/CPP_EX1.dir/Test.cpp.o: ../Vector3D.h
+
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o: ../Vector3D.cpp
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o: ../Vector3D.h
-
-CMakeFiles/CPP_EX1.dir/ex1.cpp.o: ../Matrix3D.h
-CMakeFiles/CPP_EX1.dir/ex1.cpp.o: ../Vector3D.h
-CMakeFiles/CPP_EX1.dir/ex1.cpp.o: ../ex1.cpp
 

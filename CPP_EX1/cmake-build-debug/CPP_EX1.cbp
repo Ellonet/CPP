@@ -90,13 +90,13 @@
 		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.h">
 			<Option target="CPP_EX1"/>
 		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Test.cpp">
+			<Option target="CPP_EX1"/>
+		</Unit>
 		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.cpp">
 			<Option target="CPP_EX1"/>
 		</Unit>
 		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.h">
-			<Option target="CPP_EX1"/>
-		</Unit>
-		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp">
 			<Option target="CPP_EX1"/>
 		</Unit>
 		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/CMakeLists.txt">

@@ -150,6 +150,33 @@ Matrix3D.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.s
 .PHONY : Matrix3D.cpp.s
 
+Test.o: Test.cpp.o
+
+.PHONY : Test.o
+
+# target to build an object file
+Test.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/Test.cpp.o
+.PHONY : Test.cpp.o
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 Vector3D.o: Vector3D.cpp.o
 
 .PHONY : Vector3D.o
@@ -177,33 +204,6 @@ Vector3D.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/Vector3D.cpp.s
 .PHONY : Vector3D.cpp.s
 
-ex1.o: ex1.cpp.o
-
-.PHONY : ex1.o
-
-# target to build an object file
-ex1.cpp.o:
-	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.o
-.PHONY : ex1.cpp.o
-
-ex1.i: ex1.cpp.i
-
-.PHONY : ex1.i
-
-# target to preprocess a source file
-ex1.cpp.i:
-	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.i
-.PHONY : ex1.cpp.i
-
-ex1.s: ex1.cpp.s
-
-.PHONY : ex1.s
-
-# target to generate assembly for a file
-ex1.cpp.s:
-	$(MAKE) -f CMakeFiles/CPP_EX1.dir/build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.s
-.PHONY : ex1.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +216,12 @@ help:
 	@echo "... Matrix3D.o"
 	@echo "... Matrix3D.i"
 	@echo "... Matrix3D.s"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 	@echo "... Vector3D.o"
 	@echo "... Vector3D.i"
 	@echo "... Vector3D.s"
-	@echo "... ex1.o"
-	@echo "... ex1.i"
-	@echo "... ex1.s"
 .PHONY : help
 
 

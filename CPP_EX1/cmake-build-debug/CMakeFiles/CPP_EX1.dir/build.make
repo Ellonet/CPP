@@ -57,18 +57,18 @@ include CMakeFiles/CPP_EX1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_EX1.dir/flags.make
 
-CMakeFiles/CPP_EX1.dir/ex1.cpp.o: CMakeFiles/CPP_EX1.dir/flags.make
-CMakeFiles/CPP_EX1.dir/ex1.cpp.o: ../ex1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_EX1.dir/ex1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_EX1.dir/ex1.cpp.o -c /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp
+CMakeFiles/CPP_EX1.dir/Test.cpp.o: CMakeFiles/CPP_EX1.dir/flags.make
+CMakeFiles/CPP_EX1.dir/Test.cpp.o: ../Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_EX1.dir/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CPP_EX1.dir/Test.cpp.o -c /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Test.cpp
 
-CMakeFiles/CPP_EX1.dir/ex1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_EX1.dir/ex1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp > CMakeFiles/CPP_EX1.dir/ex1.cpp.i
+CMakeFiles/CPP_EX1.dir/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_EX1.dir/Test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Test.cpp > CMakeFiles/CPP_EX1.dir/Test.cpp.i
 
-CMakeFiles/CPP_EX1.dir/ex1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_EX1.dir/ex1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp -o CMakeFiles/CPP_EX1.dir/ex1.cpp.s
+CMakeFiles/CPP_EX1.dir/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_EX1.dir/Test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Test.cpp -o CMakeFiles/CPP_EX1.dir/Test.cpp.s
 
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o: CMakeFiles/CPP_EX1.dir/flags.make
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o: ../Vector3D.cpp
@@ -98,14 +98,14 @@ CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.s: cmake_force
 
 # Object files for target CPP_EX1
 CPP_EX1_OBJECTS = \
-"CMakeFiles/CPP_EX1.dir/ex1.cpp.o" \
+"CMakeFiles/CPP_EX1.dir/Test.cpp.o" \
 "CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o" \
 "CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o"
 
 # External object files for target CPP_EX1
 CPP_EX1_EXTERNAL_OBJECTS =
 
-CPP_EX1: CMakeFiles/CPP_EX1.dir/ex1.cpp.o
+CPP_EX1: CMakeFiles/CPP_EX1.dir/Test.cpp.o
 CPP_EX1: CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o
 CPP_EX1: CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o
 CPP_EX1: CMakeFiles/CPP_EX1.dir/build.make
