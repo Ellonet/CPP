@@ -51,7 +51,7 @@ Matrix3D::Matrix3D(Vector3D v1, Vector3D v2, Vector3D v3) {
     init(v1, v2, v3);
 }
 
-Matrix3D::Matrix3D(Matrix3D &other) {
+Matrix3D::Matrix3D(const Matrix3D &other) {
     Vector3D v1 = other.v1;
     Vector3D v2 = other.v2;
     Vector3D v3 = other.v3;
@@ -59,7 +59,7 @@ Matrix3D::Matrix3D(Matrix3D &other) {
 }
 
 ostream &operator<<(ostream &outStream, const Matrix3D &matrix) {
-    return outStream << matrix.v1 << matrix.v2 << matrix.v3;
+    return outStream << matrix.v1 << endl << matrix.v2 << endl << matrix.v3;
 }
 
 istream &operator>>(istream &inStream, Matrix3D &matrix) {
@@ -85,9 +85,9 @@ Matrix3D &Matrix3D::operator+=(Matrix3D &other) {
 
 Matrix3D &Matrix3D::operator*=(Matrix3D &other) {
     Vector3D col1, col2, col3, row1, row2, row3;
-    col1 = this->col(0);
-    col2 = this->col(1);
-    col3 = this->col(2);
+    col1 = this->column(0);
+    col2 = this->column(1);
+    col3 = this->column(2);
     row1 = other.row(0);
     row2 = other.row(1);
     row3 = other.row(2);
@@ -127,9 +127,9 @@ Matrix3D Matrix3D::operator*(Matrix3D &other) {
     Matrix3D res;
     Vector3D v1, v2, v3;
     Vector3D col1, col2, col3, row1, row2, row3;
-    col1 = this->col(0);
-    col2 = this->col(1);
-    col3 = this->col(2);
+    col1 = this->column(0);
+    col2 = this->column(1);
+    col3 = this->column(2);
     row1 = other.row(0);
     row2 = other.row(1);
     row3 = other.row(2);
@@ -217,7 +217,7 @@ Vector3D Matrix3D::row(int index) {
     return res;
 }
 
-Vector3D Matrix3D::col(int index) {
+Vector3D Matrix3D::column(int index) {
     Vector3D res;
     if (index == 0) {
         res = Vector3D(this->v1[0],this->v2[0],this->v3[0]);
@@ -226,7 +226,7 @@ Vector3D Matrix3D::col(int index) {
         res = Vector3D(this->v1[1],this->v2[1],this->v3[1]);
     }
     else if (index == 2) {
-        res = Vector3D(this->v1[3],this->v2[2],this->v3[2]);
+        res = Vector3D(this->v1[2],this->v2[2],this->v3[2]);
     }
     else {
         cerr << "Error - out of range";

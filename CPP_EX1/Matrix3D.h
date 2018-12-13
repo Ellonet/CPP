@@ -24,7 +24,7 @@ public:
     explicit Matrix3D(double (&arr)[9]);
     explicit Matrix3D(double (&arr)[3][3]);
     Matrix3D(Vector3D v1, Vector3D v2, Vector3D v3);
-    Matrix3D(Matrix3D &other);
+    Matrix3D(const Matrix3D &other);
     friend ostream& operator<<(ostream &out, const Matrix3D& matrix);
     friend istream& operator>>(istream &in, Matrix3D& matrix);
     Matrix3D& operator-=(Matrix3D &other);
@@ -40,7 +40,7 @@ public:
     Vector3D operator[](int index) const;
     Vector3D &operator[](int index);
     Vector3D row(int index);
-    Vector3D col(int index);
+    Vector3D column(int index);
     double trace();
     double determinant();
 

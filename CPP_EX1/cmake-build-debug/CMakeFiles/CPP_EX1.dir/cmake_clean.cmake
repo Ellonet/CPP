@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPP_EX1.dir/main.cpp.obj"
-  "CMakeFiles/CPP_EX1.dir/Vector3D.cpp.obj"
-  "CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.obj"
+  "CMakeFiles/CPP_EX1.dir/ex1.cpp.o"
+  "CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o"
+  "CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o"
   "CPP_EX1.pdb"
-  "CPP_EX1.exe"
-  "CPP_EX1.exe.manifest"
-  "libCPP_EX1.dll.a"
+  "CPP_EX1"
 )
 
 # Per-language clean rules from dependency scanning.

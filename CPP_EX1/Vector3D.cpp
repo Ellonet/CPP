@@ -27,7 +27,7 @@ Vector3D::Vector3D(double (&arr)[3]) {
     init(arr[0], arr[1], arr[2]);
 }
 
-Vector3D::Vector3D(Vector3D &other) {
+Vector3D::Vector3D(const Vector3D &other) {
     double d1 = other.vector[0];
     double d2 = other.vector[1];
     double d3 = other.vector[2];
@@ -36,7 +36,7 @@ Vector3D::Vector3D(Vector3D &other) {
 
 ///////////// streams overloading /////////////
 ostream &operator<<(ostream &outStream, const Vector3D &other) {
-    return outStream << other.vector[0] << " " << other.vector[1] << " " << other.vector[2] << endl;
+    return outStream << other.vector[0] << " " << other.vector[1] << " " << other.vector[2];
 }
 
 istream &operator>>(istream &inStream, Vector3D &vector) {
@@ -88,10 +88,9 @@ Vector3D &Vector3D::operator-=(double num) {
     return *this;
 }
 
-const Vector3D &Vector3D::operator-() {
+Vector3D operator-(const Vector3D &vector) {
     Vector3D zero;
-    *this = zero - *this;
-    return *this;
+    return zero - vector;
 }
 
 Vector3D operator*(const Vector3D &other, double num) {

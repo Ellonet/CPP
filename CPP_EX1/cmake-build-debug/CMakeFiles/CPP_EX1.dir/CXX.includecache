@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/ClionProjects/CPP_EX1/Matrix3D.cpp
-iostream
--
-stdlib.h
--
-Matrix3D.h
-D:/ClionProjects/CPP_EX1/Matrix3D.h
-
-D:/ClionProjects/CPP_EX1/Matrix3D.h
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.h
 stdlib.h
 -
 iostream
 -
 Vector3D.h
-D:/ClionProjects/CPP_EX1/Vector3D.h
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.h
 
-D:/ClionProjects/CPP_EX1/Vector3D.h
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.h
 stdlib.h
 -
+iostream
+-
+
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp
+Vector3D.h
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.h
+Matrix3D.h
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.h
 iostream
 -
 

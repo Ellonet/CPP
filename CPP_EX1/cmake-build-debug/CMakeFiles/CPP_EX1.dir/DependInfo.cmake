@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/ClionProjects/CPP_EX1/Matrix3D.cpp" "D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.obj"
-  "D:/ClionProjects/CPP_EX1/Vector3D.cpp" "D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/Vector3D.cpp.obj"
-  "D:/ClionProjects/CPP_EX1/main.cpp" "D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/main.cpp.obj"
+  "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.cpp" "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.o"
+  "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.cpp" "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/Vector3D.cpp.o"
+  "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/ex1.cpp" "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir/ex1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

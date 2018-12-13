@@ -1,3 +1,3 @@
-D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir
-D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/ClionProjects/CPP_EX1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CMakeFiles/CPP_EX1.dir
