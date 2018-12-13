@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/CPP_EX1/Matrix3D.cpp
+iostream
+-
+stdlib.h
+-
+Matrix3D.h
+D:/ClionProjects/CPP_EX1/Matrix3D.h
+
+D:/ClionProjects/CPP_EX1/Matrix3D.h
+stdlib.h
+-
+iostream
+-
+Vector3D.h
+D:/ClionProjects/CPP_EX1/Vector3D.h
+
+D:/ClionProjects/CPP_EX1/Vector3D.h
+stdlib.h
+-
+iostream
+-
+
