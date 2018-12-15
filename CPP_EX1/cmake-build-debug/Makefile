@@ -47,10 +47,10 @@ RM = "D:\ClionProjects\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\ClionProjects\CPP_EX1
+CMAKE_SOURCE_DIR = D:\ClionProjects\CPP\CPP_EX1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\ClionProjects\CPP_EX1\cmake-build-debug
+CMAKE_BINARY_DIR = D:\ClionProjects\CPP\CPP_EX1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\CPP_EX1\cmake-build-debug\CMakeFiles D:\ClionProjects\CPP_EX1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\CPP\CPP_EX1\cmake-build-debug\CMakeFiles D:\ClionProjects\CPP\CPP_EX1\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\CPP_EX1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\ClionProjects\CPP\CPP_EX1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -176,32 +176,32 @@ Vector3D.cpp.s:
 	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/Vector3D.cpp.s
 .PHONY : Vector3D.cpp.s
 
-main.obj: main.cpp.obj
+ex1.obj: ex1.cpp.obj
 
-.PHONY : main.obj
+.PHONY : ex1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+ex1.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.obj
+.PHONY : ex1.cpp.obj
 
-main.i: main.cpp.i
+ex1.i: ex1.cpp.i
 
-.PHONY : main.i
+.PHONY : ex1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/main.cpp.i
-.PHONY : main.cpp.i
+ex1.cpp.i:
+	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.i
+.PHONY : ex1.cpp.i
 
-main.s: main.cpp.s
+ex1.s: ex1.cpp.s
 
-.PHONY : main.s
+.PHONY : ex1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/main.cpp.s
-.PHONY : main.cpp.s
+ex1.cpp.s:
+	$(MAKE) -f CMakeFiles\CPP_EX1.dir\build.make CMakeFiles/CPP_EX1.dir/ex1.cpp.s
+.PHONY : ex1.cpp.s
 
 # Help Target
 help:
@@ -218,9 +218,9 @@ help:
 	@echo ... Vector3D.obj
 	@echo ... Vector3D.i
 	@echo ... Vector3D.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... ex1.obj
+	@echo ... ex1.i
+	@echo ... ex1.s
 .PHONY : help
 
 

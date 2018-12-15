@@ -8,7 +8,7 @@ CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.obj: ../Vector3D.h
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.obj: ../Vector3D.cpp
 CMakeFiles/CPP_EX1.dir/Vector3D.cpp.obj: ../Vector3D.h
 
-CMakeFiles/CPP_EX1.dir/main.cpp.obj: ../Matrix3D.h
-CMakeFiles/CPP_EX1.dir/main.cpp.obj: ../Vector3D.h
-CMakeFiles/CPP_EX1.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/CPP_EX1.dir/ex1.cpp.obj: ../Matrix3D.h
+CMakeFiles/CPP_EX1.dir/ex1.cpp.obj: ../Vector3D.h
+CMakeFiles/CPP_EX1.dir/ex1.cpp.obj: ../ex1.cpp
 

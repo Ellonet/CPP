@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CPP_EX1.dir/main.cpp.obj"
+  "CMakeFiles/CPP_EX1.dir/ex1.cpp.obj"
   "CMakeFiles/CPP_EX1.dir/Vector3D.cpp.obj"
   "CMakeFiles/CPP_EX1.dir/Matrix3D.cpp.obj"
   "CPP_EX1.pdb"

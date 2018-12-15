@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/ClionProjects/CPP_EX1/cmake-build-debug"/>
+				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CPP_EX1">
-				<Option output="D:/ClionProjects/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ClionProjects/CPP_EX1/cmake-build-debug"/>
+				<Option output="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CPP_EX1/fast">
-				<Option output="D:/ClionProjects/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/ClionProjects/CPP_EX1/cmake-build-debug"/>
+				<Option output="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,49 +55,49 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/ClionProjects/CPP_EX1/cmake-build-debug"/>
+				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/ClionProjects/CPP_EX1/cmake-build-debug"/>
+				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/ClionProjects/CPP_EX1/Matrix3D.cpp">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/Matrix3D.cpp">
 			<Option target="CPP_EX1"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP_EX1/Matrix3D.h">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/Matrix3D.h">
 			<Option target="CPP_EX1"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP_EX1/Vector3D.cpp">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/Vector3D.cpp">
 			<Option target="CPP_EX1"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP_EX1/Vector3D.h">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/Vector3D.h">
 			<Option target="CPP_EX1"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP_EX1/main.cpp">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/ex1.cpp">
 			<Option target="CPP_EX1"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP_EX1/CMakeLists.txt">
+		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
