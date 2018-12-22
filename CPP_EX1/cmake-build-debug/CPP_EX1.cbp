@@ -8,6 +8,7 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
+<<<<<<< HEAD
 				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
@@ -20,19 +21,55 @@
 			<Target title="CPP_EX1">
 				<Option output="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
+=======
+				<Option working_dir="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP_EX1">
+				<Option output="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CPP_EX1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug"/>
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -42,19 +79,32 @@
 			<Target title="CPP_EX1/fast">
 				<Option output="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/CPP_EX1.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug"/>
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP_EX1/fast">
+				<Option output="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/CPP_EX1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug"/>
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
+<<<<<<< HEAD
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1/fast"/>
 					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -98,6 +148,31 @@
 			<Option target="CPP_EX1"/>
 		</Unit>
 		<Unit filename="D:/ClionProjects/CPP/CPP_EX1/CMakeLists.txt">
+=======
+					<Build command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_EX1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.cpp">
+			<Option target="CPP_EX1"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Matrix3D.h">
+			<Option target="CPP_EX1"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Test.cpp">
+			<Option target="CPP_EX1"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.cpp">
+			<Option target="CPP_EX1"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/Vector3D.h">
+			<Option target="CPP_EX1"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/CMakeLists.txt">
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -40,11 +40,15 @@ public:
      */
     Vector3D(double d1, double d2, double d3);
 
+<<<<<<< HEAD
     /**
      * A copy constractor - initializing a vector with the parameters of the given vector
      * @param other - the vector to be copied.
      */
     Vector3D(Vector3D &other);
+=======
+    Vector3D(const Vector3D &other);
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 
     /**
      * A constractor that initializes the vector with the values of a given array of 3 doubles.
@@ -110,11 +114,15 @@ public:
      */
     Vector3D &operator-=(double num);
 
+<<<<<<< HEAD
     /**
      * An overload to the - operator: negates the given vector
      * @return a new vector.
      */
     const Vector3D &operator-();
+=======
+    friend Vector3D operator-(const Vector3D &vector);
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 
     /**
      * An overload to the / operator: divides each value of the given vector by the given number

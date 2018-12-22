@@ -52,18 +52,23 @@ Vector3D::Vector3D(double (&arr)[3])
     _init(arr[0], arr[1], arr[2]);
 }
 
+<<<<<<< HEAD
 /**
  * A copy constractor - initializing a vector with the parameters of the given vector
  * @param other - the vector to be copied.
  */
 Vector3D::Vector3D(Vector3D &other)
 {
+=======
+Vector3D::Vector3D(const Vector3D &other) {
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
     double d1 = other.vector[0];
     double d2 = other.vector[1];
     double d3 = other.vector[2];
     _init(d1, d2, d3);
 }
 
+<<<<<<< HEAD
 //---------------------------------- streams overloading ----------------------------------//
 /**
  * An overload of the << function - printing the vector
@@ -74,6 +79,11 @@ Vector3D::Vector3D(Vector3D &other)
 ostream &operator<<(ostream &outStream, const Vector3D &other)
 {
     return outStream << other.vector[0] << " " << other.vector[1] << " " << other.vector[2] << endl;
+=======
+///////////// streams overloading /////////////
+ostream &operator<<(ostream &outStream, const Vector3D &other) {
+    return outStream << other.vector[0] << " " << other.vector[1] << " " << other.vector[2];
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 }
 
 /**
@@ -168,15 +178,18 @@ Vector3D &Vector3D::operator-=(double num)
     return *this;
 }
 
+<<<<<<< HEAD
 /**
  * An overload to the - operator: negates the given vector
  * @return a new vector.
  */
 const Vector3D &Vector3D::operator-()
 {
+=======
+Vector3D operator-(const Vector3D &vector) {
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
     Vector3D zero;
-    *this = zero - *this;
-    return *this;
+    return zero - vector;
 }
 
 /**

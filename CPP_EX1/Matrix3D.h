@@ -67,6 +67,7 @@ public:
      * @param v3 - third vector
      */
     Matrix3D(Vector3D v1, Vector3D v2, Vector3D v3);
+<<<<<<< HEAD
 
     /**
      * A copy constractor - initializing a matrix with the parameters of the given matrix
@@ -116,6 +117,14 @@ public:
      * @param other - the second matrix to be added
      * @return - a new matrix.
      */
+=======
+    Matrix3D(const Matrix3D &other);
+    friend ostream& operator<<(ostream &out, const Matrix3D& matrix);
+    friend istream& operator>>(istream &in, Matrix3D& matrix);
+    Matrix3D& operator-=(Matrix3D &other);
+    Matrix3D& operator+=(Matrix3D &other);
+    Matrix3D& operator*=(Matrix3D &other);
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
     Matrix3D operator+(Matrix3D &other);
 
     /**
@@ -180,6 +189,7 @@ public:
      * @return a Vector3D vector
      */
     Vector3D row(int index);
+<<<<<<< HEAD
 
     /**
      * This function returns a Vector3D vector representing the column of the matrix in the given index.
@@ -192,6 +202,9 @@ public:
      * This functoin calculates the trace of this matrix.
      * @return - a double representing the trace.
      */
+=======
+    Vector3D column(int index);
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
     double trace();
 
     /**

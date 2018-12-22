@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 # Install script for directory: D:/ClionProjects/CPP/CPP_EX1
+=======
+# Install script for directory: /cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/CPP_EX1")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,6 +31,11 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
+# Install shared libraries without execute permission?
+if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
+  set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -40,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "D:/ClionProjects/CPP/CPP_EX1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/cs/usr/ellonet/Desktop/cpp/CPP/CPP_EX1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> 7240473f9cee46f291802a5354137df4cf0d95dc
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
