@@ -8,6 +8,7 @@
 #include <iostream>
 #include <boost/algorithm/string.hpp>
 #include <cmath>
+#include <numeric>
 
 using namespace std;
 using namespace boost::algorithm;
@@ -90,11 +91,7 @@ double FileAnalyzer::getNorm() const {
  * @return a double representing the multipication.
  */
 double FileAnalyzer::operator*(FileAnalyzer &other) {
-    double res = 0;
-    for (int i = 0; i < _scoreVector.size(); ++i) {
-        res += this->_scoreVector[i] * other._scoreVector[i];
-    }
-    return res;
+    return inner_product(std::begin(_scoreVector), std::end(_scoreVector), std::begin(other._scoreVector), 0.0);
 }
 
 

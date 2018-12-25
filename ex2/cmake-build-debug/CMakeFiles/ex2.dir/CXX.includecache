@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+D:/ClionProjects/CPP/ex2/FileAnalyzer.cpp
+FileAnalyzer.h
+D:/ClionProjects/CPP/ex2/FileAnalyzer.h
+boost/tokenizer.hpp
+-
+fstream
+-
+iostream
+-
+boost/algorithm/string.hpp
+-
+cmath
+-
+numeric
+-
+
 D:/ClionProjects/CPP/ex2/FileAnalyzer.h
 vector
 -
@@ -13,28 +29,4 @@ map
 -
 string
 -
-
-D:/ClionProjects/CPP/ex2/FreqWordsParser.h
-vector
--
-string
--
-fstream
--
-iostream
--
-
-D:/ClionProjects/CPP/ex2/main.cpp
-iostream
--
-string
--
-vector
--
-cmath
--
-FreqWordsParser.h
-D:/ClionProjects/CPP/ex2/FreqWordsParser.h
-FileAnalyzer.h
-D:/ClionProjects/CPP/ex2/FileAnalyzer.h
 

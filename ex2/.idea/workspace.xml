@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0be7306-e72b-4deb-bcca-d157588e54f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/main.cpp.obj" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practice/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practice/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../practice/.idea/modules.xml" afterDir="false" />
@@ -58,14 +57,10 @@
       <change afterPath="$PROJECT_DIR$/../practice/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1_final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1_final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FileAnalyzer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FileAnalyzer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FileAnalyzer.h" beforeDir="false" afterPath="$PROJECT_DIR$/FileAnalyzer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreqWordsParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FreqWordsParser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FreqWordsParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/FreqWordsParser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ex2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ex2.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ex2.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,30 +74,32 @@
     <session id="-1411460500">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5490" />
+          <entry key="cpp" value="5587" />
           <entry key="h" value="1282" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Doxygen file" value="33" />
-          <entry key="ObjectiveC" value="6739" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="ObjectiveC" value="6836" />
+          <entry key="PLAIN_TEXT" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="5" />
+          <entry key="cpp" value="6" />
           <entry key="doxygen" value="1" />
           <entry key="h" value="7" />
           <entry key="txt" value="1" />
@@ -111,7 +108,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Doxygen file" value="1" />
-          <entry key="ObjectiveC" value="12" />
+          <entry key="ObjectiveC" value="13" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -125,12 +122,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
+        <entry file="file://$PROJECT_DIR$/ex2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="902">
+              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FileAnalyzer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+              <folding>
+                <element signature="e#40#65#0" expanded="true" />
+                <marker date="1545769865818" expanded="true" signature="2750:3072" ph="..." />
               </folding>
             </state>
           </provider>
@@ -139,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FreqWordsParser.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="34" selection-start-line="28" selection-end-line="34" />
+            <state relative-caret-position="660">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
                 <element signature="e#39#59#0" expanded="true" />
               </folding>
@@ -148,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FreqWordsParser.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="110">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -177,10 +187,10 @@
         <option value="$PROJECT_DIR$/FreqWordParser.h" />
         <option value="$PROJECT_DIR$/FreqWords.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/FileAnalyzer.cpp" />
         <option value="$PROJECT_DIR$/FileAnalyzer.h" />
         <option value="$PROJECT_DIR$/FreqWordsParser.cpp" />
         <option value="$PROJECT_DIR$/FreqWordsParser.h" />
+        <option value="$PROJECT_DIR$/FileAnalyzer.cpp" />
       </list>
     </option>
   </component>
@@ -191,10 +201,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +223,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,7 +272,9 @@
       <updated>1545489533789</updated>
       <workItem from="1545489535062" duration="315000" />
       <workItem from="1545498212167" duration="11000" />
-      <workItem from="1545738493099" duration="15963000" />
+      <workItem from="1545738493099" duration="16037000" />
+      <workItem from="1545755645486" duration="35000" />
+      <workItem from="1545769241717" duration="629000" />
     </task>
     <task id="LOCAL-00001" summary="finally started ex2">
       <created>1545743107205</created>
@@ -278,22 +290,30 @@
       <option name="project" value="LOCAL" />
       <updated>1545752144502</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished and documented :)">
+      <created>1545755298578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545755298578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16289000" />
+    <option name="totallyTimeSpent" value="17027000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19140083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12684564" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32855093" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32765958" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.22381635" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22269504" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -318,71 +338,61 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finally started ex2" />
     <MESSAGE value="finished :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished :)" />
+    <MESSAGE value="finished and documented :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished and documented :)" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FreqWordParser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="26" selection-start-line="4" selection-end-line="26" />
-          <folding>
-            <element signature="e#40#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FreqWordParser.h" />
     <entry file="file://$PROJECT_DIR$/frequent_words.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileAnalyzer.cpp">
+    <entry file="file://$PROJECT_DIR$/FreqWordsParser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="91" selection-start-line="85" selection-end-line="91" />
+        <state relative-caret-position="110">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#40#65#0" expanded="true" />
+            <element signature="e#0#17#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
+    <entry file="file://$PROJECT_DIR$/ex2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        <state relative-caret-position="902">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FileAnalyzer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#94#111#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FreqWordsParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="34" selection-start-line="28" selection-end-line="34" />
+        <state relative-caret-position="660">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="e#39#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FreqWordsParser.h">
+    <entry file="file://$PROJECT_DIR$/FileAnalyzer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="415">
+          <caret line="98" column="17" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#40#65#0" expanded="true" />
+            <marker date="1545769865818" expanded="true" signature="2750:3072" ph="..." />
           </folding>
         </state>
       </provider>
