@@ -7,36 +7,43 @@
 
 using namespace std;
 
-int main(int argc, char** argv) {
+/**
+ * The main function running the program.
+ * @param argc - the number of given arguments.
+ * @param argv - a list of char* representing the user input.
+ * @return 0
+ */
+int main(int argc, char **argv) {
+    // printing only 3 digits of doubles.
+    cout.setf(ios::fixed, ios::floatfield);
+    cout.precision(3);
 
-    // reading the input
+    // handling the given word list and unknown file:
     string freqWordFile = argv[1];
     string unknown = argv[2];
 
-    // generating word list vector
-    FreqWordPaeser freqWords(freqWordFile);
+    // passing the frequent word list into a parser which returns a vector
+    FreqWordParser freqWords(freqWordFile);
     const vector<string> freqWordList = freqWords.getFreqWords();
 
-    // get score of unknown file:
+    // parsing the unknown file into a FileAnalyser object:
     FileAnalyzer unknownFileVector(unknown, freqWordList);
 
-    // compare all vectors:
+    // parsing the rest of the given text files into a FileAnalyser object and finding the best match:
     double bestScore = 0;
     double score;
     string bestMatch;
-    for (int i=3; i<argc; i++) {
+    for (int i = 3; i < argc; i++) {
         string tempName = argv[i];
         FileAnalyzer temp(tempName, freqWordList);
-        cout.setf(ios::fixed,ios::floatfield);
-        cout.precision(3);
-        score = (unknownFileVector*temp)/(unknownFileVector.getNorm()*temp.getNorm());
+        score = (unknownFileVector * temp) / (unknownFileVector.getNorm() * temp.getNorm());
         cout << tempName << " " << score << endl;
         if (score > bestScore) {
             bestScore = score;
             bestMatch = tempName;
         }
     }
-
+    // printing the best score:
     cout << "Best matching author is " << bestMatch << " score " << bestScore << endl;
     return 0;
 }

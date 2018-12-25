@@ -8,17 +8,31 @@
 using namespace std;
 using namespace boost::algorithm;
 
-
-FreqWordPaeser::FreqWordPaeser(string &fileName) {
+/**
+ * A constructor of this class - receiving the file path and and generating
+ * a vector of all the words in the file.
+ * @param fileName - a string representing the file path.
+ */
+FreqWordParser::FreqWordParser(string &fileName) {
     readInput(fileName);
 }
 
-
-vector<string> FreqWordPaeser::getFreqWords() const {
+/**
+ * A getter - allowing other classes to get the vector representing the list of
+ * frequent words.
+ * @return a vector.
+ */
+vector<string> FreqWordParser::getFreqWords() const {
     return _allWords;
 }
 
-FreqWordPaeser &FreqWordPaeser::readInput(string &filename) {
+/**
+ * This fuction is responsible of generating the vector from all the
+ * words in the frequent word file.
+ * @param filename - a string representing the path of the file.
+ * @return this pointer.
+ */
+FreqWordParser &FreqWordParser::readInput(string &filename) {
     string text;
     ifstream inFile{filename};
     while (inFile >> text) {
