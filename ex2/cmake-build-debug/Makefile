@@ -122,6 +122,33 @@ ex2/fast:
 	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/build
 .PHONY : ex2/fast
 
+FreqWordsParser.obj: FreqWordsParser.cpp.obj
+
+.PHONY : FreqWordsParser.obj
+
+# target to build an object file
+FreqWordsParser.cpp.obj:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj
+.PHONY : FreqWordsParser.cpp.obj
+
+FreqWordsParser.i: FreqWordsParser.cpp.i
+
+.PHONY : FreqWordsParser.i
+
+# target to preprocess a source file
+FreqWordsParser.cpp.i:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FreqWordsParser.cpp.i
+.PHONY : FreqWordsParser.cpp.i
+
+FreqWordsParser.s: FreqWordsParser.cpp.s
+
+.PHONY : FreqWordsParser.s
+
+# target to generate assembly for a file
+FreqWordsParser.cpp.s:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FreqWordsParser.cpp.s
+.PHONY : FreqWordsParser.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... ex2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... FreqWordsParser.obj
+	@echo ... FreqWordsParser.i
+	@echo ... FreqWordsParser.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
