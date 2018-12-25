@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/ClionProjects/CPP/ex2/FileAnalyzer.cpp" "D:/ClionProjects/CPP/ex2/cmake-build-debug/CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj"
   "D:/ClionProjects/CPP/ex2/FreqWordsParser.cpp" "D:/ClionProjects/CPP/ex2/cmake-build-debug/CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj"
   "D:/ClionProjects/CPP/ex2/main.cpp" "D:/ClionProjects/CPP/ex2/cmake-build-debug/CMakeFiles/ex2.dir/main.cpp.obj"
   )

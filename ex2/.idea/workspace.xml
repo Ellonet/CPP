@@ -12,14 +12,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0be7306-e72b-4deb-bcca-d157588e54f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FreqWordsParser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FreqWordsParser.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileAnalyzer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FileAnalyzer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/objects.a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ex2.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frequent_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/3.12.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/linklibs.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/objects1.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/practice.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/cmake-build-debug/practice.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ex1_final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ex1_final/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FreqWordsParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FreqWordsParser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ex2.dir/cmake_clean.cmake" afterDir="false" />
@@ -52,24 +100,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="671" />
-          <entry key="h" value="278" />
+          <entry key="cpp" value="2868" />
+          <entry key="h" value="740" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="949" />
+          <entry key="ObjectiveC" value="3608" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1" />
-          <entry key="h" value="2" />
+          <entry key="cpp" value="4" />
+          <entry key="h" value="5" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="3" />
+          <entry key="ObjectiveC" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -81,11 +133,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="41" />
+            <state relative-caret-position="130">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -94,27 +146,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FreqWordsParser.h">
+        <entry file="file://$PROJECT_DIR$/FileAnalyzer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="152">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FileAnalyzer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
-                <element signature="e#0#17#0" expanded="true" />
+                <element signature="e#40#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FreqWordsParser.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;&lt;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -125,8 +182,10 @@
         <option value="$PROJECT_DIR$/FreqWordParser.h" />
         <option value="$PROJECT_DIR$/FreqWords.h" />
         <option value="$PROJECT_DIR$/FreqWordsParser.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/FreqWordsParser.cpp" />
+        <option value="$PROJECT_DIR$/FileAnalyzer.h" />
+        <option value="$PROJECT_DIR$/FileAnalyzer.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
@@ -136,6 +195,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -186,7 +246,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="frequent_words.txt texts/unknown.txt texts/ladygaga.txt texts/hamilton.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex2" TARGET_NAME="ex2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex2" RUN_TARGET_NAME="ex2">
+    <configuration name="ex2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="&quot;frequent_words.txt&quot; &quot;texts\unknown.txt&quot; &quot;texts\ladygaga.txt&quot; &quot;texts\hamilton.txt&quot;" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ex2" TARGET_NAME="ex2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ex2" RUN_TARGET_NAME="ex2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -208,33 +268,41 @@
       <updated>1545489533789</updated>
       <workItem from="1545489535062" duration="315000" />
       <workItem from="1545498212167" duration="11000" />
-      <workItem from="1545738493099" duration="3832000" />
+      <workItem from="1545738493099" duration="12806000" />
     </task>
+    <task id="LOCAL-00001" summary="finally started ex2">
+      <created>1545743107205</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545743107205</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4158000" />
+    <option name="totallyTimeSpent" value="13132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20604026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32907802" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32907802" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.46666667" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -247,10 +315,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finally started ex2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finally started ex2" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/FreqWordParser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -261,30 +330,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/frequent_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/FreqWordsParser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-81">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FreqWordsParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="308">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#39#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileAnalyzer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FileAnalyzer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#40#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

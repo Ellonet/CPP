@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/ClionProjects/CPP/ex2/FileAnalyzer.h
+vector
+-
+map
+-
+string
+-
+
+D:/ClionProjects/CPP/ex2/FreqWordsParser.h
+vector
+-
+string
+-
+fstream
+-
+iostream
+-
+
+D:/ClionProjects/CPP/ex2/main.cpp
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+FreqWordsParser.h
+D:/ClionProjects/CPP/ex2/FreqWordsParser.h
+FileAnalyzer.h
+D:/ClionProjects/CPP/ex2/FileAnalyzer.h
+

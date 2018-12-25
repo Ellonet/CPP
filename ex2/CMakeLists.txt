@@ -3,4 +3,4 @@ project(ex2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(ex2 main.cpp FreqWordsParser.cpp FreqWordsParser.h)
+add_executable(ex2 main.cpp FreqWordsParser.cpp FreqWordsParser.h FileAnalyzer.cpp FileAnalyzer.h)

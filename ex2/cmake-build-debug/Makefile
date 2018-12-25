@@ -122,6 +122,33 @@ ex2/fast:
 	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/build
 .PHONY : ex2/fast
 
+FileAnalyzer.obj: FileAnalyzer.cpp.obj
+
+.PHONY : FileAnalyzer.obj
+
+# target to build an object file
+FileAnalyzer.cpp.obj:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj
+.PHONY : FileAnalyzer.cpp.obj
+
+FileAnalyzer.i: FileAnalyzer.cpp.i
+
+.PHONY : FileAnalyzer.i
+
+# target to preprocess a source file
+FileAnalyzer.cpp.i:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FileAnalyzer.cpp.i
+.PHONY : FileAnalyzer.cpp.i
+
+FileAnalyzer.s: FileAnalyzer.cpp.s
+
+.PHONY : FileAnalyzer.s
+
+# target to generate assembly for a file
+FileAnalyzer.cpp.s:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FileAnalyzer.cpp.s
+.PHONY : FileAnalyzer.cpp.s
+
 FreqWordsParser.obj: FreqWordsParser.cpp.obj
 
 .PHONY : FreqWordsParser.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... ex2
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... FileAnalyzer.obj
+	@echo ... FileAnalyzer.i
+	@echo ... FileAnalyzer.s
 	@echo ... FreqWordsParser.obj
 	@echo ... FreqWordsParser.i
 	@echo ... FreqWordsParser.s

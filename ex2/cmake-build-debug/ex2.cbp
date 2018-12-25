@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/ClionProjects/CPP/ex2/FileAnalyzer.cpp">
+			<Option target="ex2"/>
+		</Unit>
+		<Unit filename="D:/ClionProjects/CPP/ex2/FileAnalyzer.h">
+			<Option target="ex2"/>
+		</Unit>
 		<Unit filename="D:/ClionProjects/CPP/ex2/FreqWordsParser.cpp">
 			<Option target="ex2"/>
 		</Unit>
