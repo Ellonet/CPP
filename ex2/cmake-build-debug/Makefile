@@ -176,32 +176,32 @@ FreqWordsParser.cpp.s:
 	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/FreqWordsParser.cpp.s
 .PHONY : FreqWordsParser.cpp.s
 
-main.obj: main.cpp.obj
+ex2.obj: ex2.cpp.obj
 
-.PHONY : main.obj
+.PHONY : ex2.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+ex2.cpp.obj:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/ex2.cpp.obj
+.PHONY : ex2.cpp.obj
 
-main.i: main.cpp.i
+ex2.i: ex2.cpp.i
 
-.PHONY : main.i
+.PHONY : ex2.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/main.cpp.i
-.PHONY : main.cpp.i
+ex2.cpp.i:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/ex2.cpp.i
+.PHONY : ex2.cpp.i
 
-main.s: main.cpp.s
+ex2.s: ex2.cpp.s
 
-.PHONY : main.s
+.PHONY : ex2.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/main.cpp.s
-.PHONY : main.cpp.s
+ex2.cpp.s:
+	$(MAKE) -f CMakeFiles\ex2.dir\build.make CMakeFiles/ex2.dir/ex2.cpp.s
+.PHONY : ex2.cpp.s
 
 # Help Target
 help:
@@ -218,9 +218,9 @@ help:
 	@echo ... FreqWordsParser.obj
 	@echo ... FreqWordsParser.i
 	@echo ... FreqWordsParser.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... ex2.obj
+	@echo ... ex2.i
+	@echo ... ex2.s
 .PHONY : help
 
 

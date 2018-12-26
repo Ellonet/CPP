@@ -56,18 +56,18 @@ include CMakeFiles/ex2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex2.dir/flags.make
 
-CMakeFiles/ex2.dir/main.cpp.obj: CMakeFiles/ex2.dir/flags.make
-CMakeFiles/ex2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\main.cpp.obj -c D:\ClionProjects\CPP\ex2\main.cpp
+CMakeFiles/ex2.dir/ex2.cpp.obj: CMakeFiles/ex2.dir/flags.make
+CMakeFiles/ex2.dir/ex2.cpp.obj: ../ex2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex2.dir/ex2.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex2.dir\ex2.cpp.obj -c D:\ClionProjects\CPP\ex2\ex2.cpp
 
-CMakeFiles/ex2.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex2\main.cpp > CMakeFiles\ex2.dir\main.cpp.i
+CMakeFiles/ex2.dir/ex2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex2.dir/ex2.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex2\ex2.cpp > CMakeFiles\ex2.dir\ex2.cpp.i
 
-CMakeFiles/ex2.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex2\main.cpp -o CMakeFiles\ex2.dir\main.cpp.s
+CMakeFiles/ex2.dir/ex2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex2.dir/ex2.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex2\ex2.cpp -o CMakeFiles\ex2.dir\ex2.cpp.s
 
 CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj: CMakeFiles/ex2.dir/flags.make
 CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj: ../FreqWordsParser.cpp
@@ -97,14 +97,14 @@ CMakeFiles/ex2.dir/FileAnalyzer.cpp.s: cmake_force
 
 # Object files for target ex2
 ex2_OBJECTS = \
-"CMakeFiles/ex2.dir/main.cpp.obj" \
+"CMakeFiles/ex2.dir/ex2.cpp.obj" \
 "CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj" \
 "CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj"
 
 # External object files for target ex2
 ex2_EXTERNAL_OBJECTS =
 
-ex2.exe: CMakeFiles/ex2.dir/main.cpp.obj
+ex2.exe: CMakeFiles/ex2.dir/ex2.cpp.obj
 ex2.exe: CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj
 ex2.exe: CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj
 ex2.exe: CMakeFiles/ex2.dir/build.make

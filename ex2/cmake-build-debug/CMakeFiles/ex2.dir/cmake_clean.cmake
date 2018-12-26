@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ex2.dir/main.cpp.obj"
+  "CMakeFiles/ex2.dir/ex2.cpp.obj"
   "CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj"
   "CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj"
   "ex2.pdb"

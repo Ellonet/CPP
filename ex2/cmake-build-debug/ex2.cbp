@@ -94,7 +94,7 @@
 		<Unit filename="D:/ClionProjects/CPP/ex2/FreqWordsParser.h">
 			<Option target="ex2"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP/ex2/main.cpp">
+		<Unit filename="D:/ClionProjects/CPP/ex2/ex2.cpp">
 			<Option target="ex2"/>
 		</Unit>
 		<Unit filename="D:/ClionProjects/CPP/ex2/CMakeLists.txt">

@@ -35,6 +35,10 @@ vector<string> FreqWordParser::getFreqWords() const {
 FreqWordParser &FreqWordParser::readInput(string &filename) {
     string text;
     ifstream inFile{filename};
+    if (!inFile.is_open()) {
+        cerr << "Error - could'nt open file: " << filename << endl;
+        exit(1);
+    }
     while (inFile >> text) {
         text = to_lower_copy(text);
         _allWords.push_back(text);

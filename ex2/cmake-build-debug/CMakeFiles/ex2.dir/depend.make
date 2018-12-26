@@ -7,7 +7,7 @@ CMakeFiles/ex2.dir/FileAnalyzer.cpp.obj: ../FileAnalyzer.h
 CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj: ../FreqWordsParser.cpp
 CMakeFiles/ex2.dir/FreqWordsParser.cpp.obj: ../FreqWordsParser.h
 
-CMakeFiles/ex2.dir/main.cpp.obj: ../FileAnalyzer.h
-CMakeFiles/ex2.dir/main.cpp.obj: ../FreqWordsParser.h
-CMakeFiles/ex2.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/ex2.dir/ex2.cpp.obj: ../FileAnalyzer.h
+CMakeFiles/ex2.dir/ex2.cpp.obj: ../FreqWordsParser.h
+CMakeFiles/ex2.dir/ex2.cpp.obj: ../ex2.cpp
 

@@ -15,8 +15,8 @@ using namespace std;
  */
 int main(int argc, char **argv) {
     // printing only 3 digits of doubles.
-    cout.setf(ios::fixed, ios::floatfield);
-    cout.precision(3);
+//    cout.setf(ios::fixed, ios::floatfield);
+//    cout.precision(3);
 
     // handling the given word list and unknown file:
     string freqWordFile = argv[1];
