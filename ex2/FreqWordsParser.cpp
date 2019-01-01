@@ -13,7 +13,8 @@ using namespace boost::algorithm;
  * a vector of all the words in the file.
  * @param fileName - a string representing the file path.
  */
-FreqWordParser::FreqWordParser(string &fileName) {
+FreqWordParser::FreqWordParser(string &fileName)
+{
     readInput(fileName);
 }
 
@@ -22,7 +23,8 @@ FreqWordParser::FreqWordParser(string &fileName) {
  * frequent words.
  * @return a vector.
  */
-vector<string> FreqWordParser::getFreqWords() const {
+vector<string> FreqWordParser::getFreqWords() const
+{
     return _allWords;
 }
 
@@ -32,14 +34,16 @@ vector<string> FreqWordParser::getFreqWords() const {
  * @param filename - a string representing the path of the file.
  * @return this pointer.
  */
-FreqWordParser &FreqWordParser::readInput(string &filename) {
+FreqWordParser &FreqWordParser::readInput(string &filename)
+{
     string text;
     ifstream inFile{filename};
-    if (!inFile.is_open()) {
-        cerr << "Error - could'nt open file: " << filename << endl;
-        exit(1);
+    if (!inFile.is_open())
+    {
+        return *this;
     }
-    while (inFile >> text) {
+    while (inFile >> text)
+    {
         text = to_lower_copy(text);
         _allWords.push_back(text);
     }

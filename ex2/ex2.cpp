@@ -13,11 +13,14 @@ using namespace std;
  * @param argv - a list of char* representing the user input.
  * @return 0
  */
-int main(int argc, char **argv) {
-    // printing only 3 digits of doubles.
-//    cout.setf(ios::fixed, ios::floatfield);
-//    cout.precision(3);
-
+int main(int argc, char **argv)
+{
+    // check input:
+    if (argc < 4)
+    {
+        cerr << "Usage: find_the_author<frequent_words.txt> <text1> ..." << endl;
+        exit(1);
+    }
     // handling the given word list and unknown file:
     string freqWordFile = argv[1];
     string unknown = argv[2];
@@ -33,12 +36,21 @@ int main(int argc, char **argv) {
     double bestScore = 0;
     double score;
     string bestMatch;
-    for (int i = 3; i < argc; i++) {
+    for (int i = 3; i < argc; i++)
+    {
         string tempName = argv[i];
         FileAnalyzer temp(tempName, freqWordList);
-        score = (unknownFileVector * temp) / (unknownFileVector.getNorm() * temp.getNorm());
+        if (temp.getNorm() == 0 || unknownFileVector.getNorm() == 0)
+        {
+            score = 0;
+        }
+        else
+        {
+            score = (unknownFileVector * temp) / (unknownFileVector.getNorm() * temp.getNorm());
+        }
         cout << tempName << " " << score << endl;
-        if (score > bestScore) {
+        if (score > bestScore)
+        {
             bestScore = score;
             bestMatch = tempName;
         }

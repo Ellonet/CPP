@@ -54,19 +54,19 @@ private:
      * @param words - a vector containing all the frequent words.
      * @return this pointer
      */
-    FileAnalyzer &generateWordMap(const vector<string> &words);
+    FileAnalyzer &_generateWordMap(const vector<string> &words);
 
     /**
      * This function creates a vector of all the word counts from the map.
      * @return this pointer.
      */
-    FileAnalyzer &generateScoreVector();
+    FileAnalyzer &_generateScoreVector();
     /**
      * This function analyzes the given file and inserts to the map the count of times they appeared in the file.
      * @param file - a string representing the path for the file to be analyzed.
      * @return this pointer.
      */
-    FileAnalyzer &analyze(string &file);
+    FileAnalyzer &_analyze(string &file);
 
 };
 

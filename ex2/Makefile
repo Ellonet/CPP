@@ -3,7 +3,7 @@ CCFLAGS = -c -Wall -std=c++14
 LDFLAGS = -lm
 
 # add your .cpp files here  (no file suffixes)
-CLASSES = ex2
+CLASSES = ex2 FreqWordsParser FileAnalyzer
 
 # Prepare object and source file list using pattern substitution func.
 OBJS = $(patsubst %, %.o,  $(CLASSES))
