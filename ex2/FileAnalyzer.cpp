@@ -9,6 +9,7 @@
 #include <boost/algorithm/string.hpp>
 #include <cmath>
 #include <numeric>
+
 #define DELIMITERS "\", !:;"
 
 using namespace std;
@@ -50,8 +51,14 @@ FileAnalyzer &FileAnalyzer::_generateWordMap(const vector<string> &words)
 FileAnalyzer &FileAnalyzer::_analyze(string &file)
 {
     typedef boost::tokenizer<boost::char_separator<char>> tokenizer;
-    boost::char_separator<char> sep{DELIMITERS};
-    ifstream inFile{file};
+    boost::char_separator<char> sep
+            {
+                    DELIMITERS
+            };
+    ifstream inFile
+            {
+                    file
+            };
     if (!inFile.is_open())
     {
         return *this;
@@ -61,7 +68,10 @@ FileAnalyzer &FileAnalyzer::_analyze(string &file)
     while (getline(inFile, line))
     {
         line = to_lower_copy(line);
-        tokenizer tok{line, sep};
+        tokenizer tok
+                {
+                        line, sep
+                };
         for (tokenizer::iterator it = tok.begin(); it != tok.end(); ++it)
         {
             if (_scoreMap.find(*it) != _scoreMap.end())

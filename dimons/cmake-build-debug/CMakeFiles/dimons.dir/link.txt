@@ -1,0 +1,3 @@
+"D:\ClionProjects\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\dimons.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\dimons.dir/objects.a @CMakeFiles\dimons.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\dimons.dir/objects.a -Wl,--no-whole-archive  -o dimons.exe -Wl,--out-implib,libdimons.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\dimons.dir\linklibs.rsp

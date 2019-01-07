@@ -15,7 +15,7 @@ using namespace boost::algorithm;
  */
 FreqWordParser::FreqWordParser(string &fileName)
 {
-    readInput(fileName);
+    _readInput(fileName);
 }
 
 /**
@@ -34,10 +34,13 @@ vector<string> FreqWordParser::getFreqWords() const
  * @param filename - a string representing the path of the file.
  * @return this pointer.
  */
-FreqWordParser &FreqWordParser::readInput(string &filename)
+FreqWordParser &FreqWordParser::_readInput(string &filename)
 {
     string text;
-    ifstream inFile{filename};
+    ifstream inFile
+            {
+                    filename
+            };
     if (!inFile.is_open())
     {
         return *this;

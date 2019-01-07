@@ -13,7 +13,8 @@ using namespace std;
  * @param fileName - a string representing the path of the file of the
  * the frequent words list.
  */
-class FreqWordParser {
+class FreqWordParser
+{
 public:
     /**
      * A constructor of this class - receiving the file path and and generating
@@ -34,13 +35,14 @@ private:
      * A vector representing the list of frequent words.
      */
     vector<string> _allWords;
+
     /**
      * This fuction is responsible of generating the vector from all the
      * words in the frequent word file.
      * @param filename - a string representing the path of the file.
      * @return this pointer.
      */
-    FreqWordParser &readInput(string &filename);
+    FreqWordParser &_readInput(string &filename);
 };
 
 #endif //EX2_FREQWORDPARSER_H

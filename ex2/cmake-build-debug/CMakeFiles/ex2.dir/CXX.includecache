@@ -48,17 +48,3 @@ fstream
 iostream
 -
 
-D:/ClionProjects/CPP/ex2/ex2.cpp
-iostream
--
-string
--
-vector
--
-cmath
--
-FreqWordsParser.h
-D:/ClionProjects/CPP/ex2/FreqWordsParser.h
-FileAnalyzer.h
-D:/ClionProjects/CPP/ex2/FileAnalyzer.h
-

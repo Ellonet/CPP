@@ -14,7 +14,8 @@ using namespace std;
  * This class represents a FileAnalyzer - which receives a path to a file and
  * analyzes and grades it according to the given list of grequent words.
  */
-class FileAnalyzer {
+class FileAnalyzer
+{
 public:
     /**
     * A constructor for the FileAnalyzer class. receives a file name and a vector of frequent words
@@ -23,6 +24,7 @@ public:
     * @param freqWords - a vector containing all the frequent words.
     */
     explicit FileAnalyzer(string &file, const vector<string> &freqWords);
+
     /**
      * This function calculates and returns the norm of the word count vector.
      * @return the norm of this vector.
@@ -61,6 +63,7 @@ private:
      * @return this pointer.
      */
     FileAnalyzer &_generateScoreVector();
+
     /**
      * This function analyzes the given file and inserts to the map the count of times they appeared in the file.
      * @param file - a string representing the path for the file to be analyzed.
