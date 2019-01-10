@@ -10,13 +10,13 @@
 
 using namespace std;
 
-class MyException : public std::exception
+class MyException : public std::runtime_error
 {
 public:
-    explicit MyException(const char *messege) : _message(messege)
+    explicit MyException(const char *messege) : runtime_error(messege), _message(messege)
     {}
 
-    const char *what() const throw() override
+    const char *what() const noexcept override
     {
         return _message;
     }
@@ -39,8 +39,8 @@ public:
     Matrix() : _colNum(1), _rowNum(1)
     { _matrix.push_back(0); }
 
-    Matrix(const unsigned int rows, const unsigned int cols) : _colNum(cols), _rowNum(rows),
-                                                               _matrix(rows * cols, 0)
+    Matrix(const unsigned int &rows, const unsigned int cols) : _colNum(cols), _rowNum(rows),
+                                                                _matrix(rows * cols, 0)
     {}
 
     Matrix(const Matrix &other) = default;
@@ -73,7 +73,6 @@ public:
     }
 
     Matrix<T> &operator=(const Matrix<T> &other) = default;
-    // TODO - handle memory exceptions!
 
     Matrix<T> operator+(const Matrix<T> &other) const
     {
@@ -107,7 +106,7 @@ public:
     {
 //        cout << _rowNum << _colNum << other._rowNum << other._colNum;
         vector<T> res;
-        Matrix<int> temp;
+        Matrix<T> temp;
         if (_colNum != other._rowNum)
         {
             throw MyException("Error - Unmatching dimensions");
@@ -127,7 +126,7 @@ public:
                 res.push_back(sum);
             }
         }
-        return Matrix<int>(_rowNum, other._colNum, res);
+        return Matrix<T>(_rowNum, other._colNum, res);
     }
 
     bool operator==(const Matrix<T> &other)
@@ -174,12 +173,12 @@ public:
         return _matrix[i * _colNum + j];
     }
 
-    typedef std::vector<std::string>::iterator const_iterator;
+    typedef typename std::vector<T>::const_iterator const_iterator;
 
-    const_iterator begin()
+    const_iterator begin() const
     { return _matrix.cbegin(); }
 
-    const_iterator end()
+    const_iterator end() const
     { return _matrix.cend(); }
 
     int cols()

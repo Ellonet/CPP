@@ -56,22 +56,9 @@ include CMakeFiles/ex3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ex3.dir/flags.make
 
-CMakeFiles/ex3.dir/main.cpp.obj: CMakeFiles/ex3.dir/flags.make
-CMakeFiles/ex3.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex3.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex3.dir\main.cpp.obj -c D:\ClionProjects\CPP\ex3\main.cpp
-
-CMakeFiles/ex3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex3.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex3\main.cpp > CMakeFiles\ex3.dir\main.cpp.i
-
-CMakeFiles/ex3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\main.cpp -o CMakeFiles\ex3.dir\main.cpp.s
-
 CMakeFiles/ex3.dir/Complex.cpp.obj: CMakeFiles/ex3.dir/flags.make
 CMakeFiles/ex3.dir/Complex.cpp.obj: ../Complex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex3.dir/Complex.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ex3.dir/Complex.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex3.dir\Complex.cpp.obj -c D:\ClionProjects\CPP\ex3\Complex.cpp
 
 CMakeFiles/ex3.dir/Complex.cpp.i: cmake_force
@@ -82,16 +69,29 @@ CMakeFiles/ex3.dir/Complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/Complex.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\Complex.cpp -o CMakeFiles\ex3.dir\Complex.cpp.s
 
+CMakeFiles/ex3.dir/TimeChecker.cpp.obj: CMakeFiles/ex3.dir/flags.make
+CMakeFiles/ex3.dir/TimeChecker.cpp.obj: ../TimeChecker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex3.dir/TimeChecker.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex3.dir\TimeChecker.cpp.obj -c D:\ClionProjects\CPP\ex3\TimeChecker.cpp
+
+CMakeFiles/ex3.dir/TimeChecker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex3.dir/TimeChecker.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex3\TimeChecker.cpp > CMakeFiles\ex3.dir\TimeChecker.cpp.i
+
+CMakeFiles/ex3.dir/TimeChecker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/TimeChecker.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\TimeChecker.cpp -o CMakeFiles\ex3.dir\TimeChecker.cpp.s
+
 # Object files for target ex3
 ex3_OBJECTS = \
-"CMakeFiles/ex3.dir/main.cpp.obj" \
-"CMakeFiles/ex3.dir/Complex.cpp.obj"
+"CMakeFiles/ex3.dir/Complex.cpp.obj" \
+"CMakeFiles/ex3.dir/TimeChecker.cpp.obj"
 
 # External object files for target ex3
 ex3_EXTERNAL_OBJECTS =
 
-ex3.exe: CMakeFiles/ex3.dir/main.cpp.obj
 ex3.exe: CMakeFiles/ex3.dir/Complex.cpp.obj
+ex3.exe: CMakeFiles/ex3.dir/TimeChecker.cpp.obj
 ex3.exe: CMakeFiles/ex3.dir/build.make
 ex3.exe: CMakeFiles/ex3.dir/linklibs.rsp
 ex3.exe: CMakeFiles/ex3.dir/objects1.rsp
