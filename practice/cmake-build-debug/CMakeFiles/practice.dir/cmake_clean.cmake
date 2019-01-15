@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/practice.dir/main.cpp.obj"
+  "CMakeFiles/practice.dir/inheritence2.cpp.o"
   "practice.pdb"
-  "practice.exe"
-  "practice.exe.manifest"
-  "libpractice.dll.a"
+  "practice"
 )
 
 # Per-language clean rules from dependency scanning.
