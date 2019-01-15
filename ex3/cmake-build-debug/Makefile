@@ -149,32 +149,32 @@ Complex.cpp.s:
 	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/Complex.cpp.s
 .PHONY : Complex.cpp.s
 
-TimeChecker.obj: TimeChecker.cpp.obj
+tester.obj: tester.cpp.obj
 
-.PHONY : TimeChecker.obj
+.PHONY : tester.obj
 
 # target to build an object file
-TimeChecker.cpp.obj:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/TimeChecker.cpp.obj
-.PHONY : TimeChecker.cpp.obj
+tester.cpp.obj:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.obj
+.PHONY : tester.cpp.obj
 
-TimeChecker.i: TimeChecker.cpp.i
+tester.i: tester.cpp.i
 
-.PHONY : TimeChecker.i
+.PHONY : tester.i
 
 # target to preprocess a source file
-TimeChecker.cpp.i:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/TimeChecker.cpp.i
-.PHONY : TimeChecker.cpp.i
+tester.cpp.i:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.i
+.PHONY : tester.cpp.i
 
-TimeChecker.s: TimeChecker.cpp.s
+tester.s: tester.cpp.s
 
-.PHONY : TimeChecker.s
+.PHONY : tester.s
 
 # target to generate assembly for a file
-TimeChecker.cpp.s:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/TimeChecker.cpp.s
-.PHONY : TimeChecker.cpp.s
+tester.cpp.s:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.s
+.PHONY : tester.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... Complex.obj
 	@echo ... Complex.i
 	@echo ... Complex.s
-	@echo ... TimeChecker.obj
-	@echo ... TimeChecker.i
-	@echo ... TimeChecker.s
+	@echo ... tester.obj
+	@echo ... tester.i
+	@echo ... tester.s
 .PHONY : help
 
 

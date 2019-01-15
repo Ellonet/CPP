@@ -22,17 +22,11 @@ iostream
 Complex.h
 D:/ClionProjects/CPP/ex3/Complex.h
 
-D:/ClionProjects/CPP/ex3/TimeChecker.cpp
-Complex.h
-D:/ClionProjects/CPP/ex3/Complex.h
+D:/ClionProjects/CPP/ex3/tester.cpp
 Matrix.hpp
 D:/ClionProjects/CPP/ex3/Matrix.hpp
-chrono
--
 iostream
 -
-stack
--
-Eigen/Dense
+sstream
 -
 
