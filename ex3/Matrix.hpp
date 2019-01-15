@@ -60,11 +60,12 @@ public:
     /**
      * A default constructor returning a 1x1 matrix with 0 in it.
      */
-    Matrix() try: _colNum((unsigned int) 1), _rowNum((unsigned int) 1)
+    Matrix() try : _colNum((unsigned int) 1), _rowNum((unsigned int) 1)
     {
         _matrix.push_back(0);
     }
-    catch (exception &e) {
+    catch (exception &e)
+    {
         throw MatrixException("Error - initialization failed due to allocation fail.");
     }
 
@@ -75,9 +76,10 @@ public:
      * @param cols - unsigned int
      */
     Matrix(const unsigned int rows, const unsigned int cols) try : _colNum(cols), _rowNum(rows),
-                                                               _matrix(rows * cols, 0)
+                                                                   _matrix(rows * cols, 0)
     {}
-    catch (exception &e) {
+    catch (exception &e)
+    {
         throw MatrixException("Error - initialization failed due to allocation fail.");
     }
 
@@ -262,12 +264,14 @@ public:
      */
     T operator()(unsigned int i, unsigned int j) const
     {
-        try
+        if ((i < 0 || j < 0) || (i >= _rowNum || j >= _colNum))
         {
-            return _matrix.at(i * _colNum + j);
-        } catch (exception &e)
+            throw MatrixException("Error - array index out of bounds");
+
+        }
+        else
         {
-            throw MatrixException("User tried to access an index out of range");
+            return _matrix[i * _colNum + j];
         }
     }
 
@@ -280,12 +284,14 @@ public:
      */
     T &operator()(unsigned int i, unsigned int j)
     {
-        try
+        if ((i < 0 || j < 0) || (i >= _rowNum || j >= _colNum))
         {
-            return _matrix.at(i * _colNum + j);
-        } catch (exception &e)
+            throw MatrixException("Error - array index out of bounds");
+
+        }
+        else
         {
-            throw MatrixException("User tried to access an index out of range");
+            return _matrix[i * _colNum + j];
         }
     }
 

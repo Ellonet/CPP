@@ -91,7 +91,7 @@
 		<Unit filename="D:/ClionProjects/CPP/ex3/Matrix.hpp">
 			<Option target="ex3"/>
 		</Unit>
-		<Unit filename="D:/ClionProjects/CPP/ex3/tester.cpp">
+		<Unit filename="D:/ClionProjects/CPP/ex3/exceptionTesterEx3.cpp">
 			<Option target="ex3"/>
 		</Unit>
 		<Unit filename="D:/ClionProjects/CPP/ex3/CMakeLists.txt">

@@ -69,29 +69,29 @@ CMakeFiles/ex3.dir/Complex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/Complex.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\Complex.cpp -o CMakeFiles\ex3.dir\Complex.cpp.s
 
-CMakeFiles/ex3.dir/tester.cpp.obj: CMakeFiles/ex3.dir/flags.make
-CMakeFiles/ex3.dir/tester.cpp.obj: ../tester.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex3.dir/tester.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex3.dir\tester.cpp.obj -c D:\ClionProjects\CPP\ex3\tester.cpp
+CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj: CMakeFiles/ex3.dir/flags.make
+CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj: ../exceptionTesterEx3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\ClionProjects\CPP\ex3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ex3.dir\exceptionTesterEx3.cpp.obj -c D:\ClionProjects\CPP\ex3\exceptionTesterEx3.cpp
 
-CMakeFiles/ex3.dir/tester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex3.dir/tester.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex3\tester.cpp > CMakeFiles\ex3.dir\tester.cpp.i
+CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\ClionProjects\CPP\ex3\exceptionTesterEx3.cpp > CMakeFiles\ex3.dir\exceptionTesterEx3.cpp.i
 
-CMakeFiles/ex3.dir/tester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/tester.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\tester.cpp -o CMakeFiles\ex3.dir\tester.cpp.s
+CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\ClionProjects\CPP\ex3\exceptionTesterEx3.cpp -o CMakeFiles\ex3.dir\exceptionTesterEx3.cpp.s
 
 # Object files for target ex3
 ex3_OBJECTS = \
 "CMakeFiles/ex3.dir/Complex.cpp.obj" \
-"CMakeFiles/ex3.dir/tester.cpp.obj"
+"CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj"
 
 # External object files for target ex3
 ex3_EXTERNAL_OBJECTS =
 
 ex3.exe: CMakeFiles/ex3.dir/Complex.cpp.obj
-ex3.exe: CMakeFiles/ex3.dir/tester.cpp.obj
+ex3.exe: CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj
 ex3.exe: CMakeFiles/ex3.dir/build.make
 ex3.exe: CMakeFiles/ex3.dir/linklibs.rsp
 ex3.exe: CMakeFiles/ex3.dir/objects1.rsp

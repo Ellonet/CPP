@@ -149,32 +149,32 @@ Complex.cpp.s:
 	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/Complex.cpp.s
 .PHONY : Complex.cpp.s
 
-tester.obj: tester.cpp.obj
+exceptionTesterEx3.obj: exceptionTesterEx3.cpp.obj
 
-.PHONY : tester.obj
+.PHONY : exceptionTesterEx3.obj
 
 # target to build an object file
-tester.cpp.obj:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.obj
-.PHONY : tester.cpp.obj
+exceptionTesterEx3.cpp.obj:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.obj
+.PHONY : exceptionTesterEx3.cpp.obj
 
-tester.i: tester.cpp.i
+exceptionTesterEx3.i: exceptionTesterEx3.cpp.i
 
-.PHONY : tester.i
+.PHONY : exceptionTesterEx3.i
 
 # target to preprocess a source file
-tester.cpp.i:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.i
-.PHONY : tester.cpp.i
+exceptionTesterEx3.cpp.i:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.i
+.PHONY : exceptionTesterEx3.cpp.i
 
-tester.s: tester.cpp.s
+exceptionTesterEx3.s: exceptionTesterEx3.cpp.s
 
-.PHONY : tester.s
+.PHONY : exceptionTesterEx3.s
 
 # target to generate assembly for a file
-tester.cpp.s:
-	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/tester.cpp.s
-.PHONY : tester.cpp.s
+exceptionTesterEx3.cpp.s:
+	$(MAKE) -f CMakeFiles\ex3.dir\build.make CMakeFiles/ex3.dir/exceptionTesterEx3.cpp.s
+.PHONY : exceptionTesterEx3.cpp.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... Complex.obj
 	@echo ... Complex.i
 	@echo ... Complex.s
-	@echo ... tester.obj
-	@echo ... tester.i
-	@echo ... tester.s
+	@echo ... exceptionTesterEx3.obj
+	@echo ... exceptionTesterEx3.i
+	@echo ... exceptionTesterEx3.s
 .PHONY : help
 
 

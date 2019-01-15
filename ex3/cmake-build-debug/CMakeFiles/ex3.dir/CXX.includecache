@@ -22,11 +22,11 @@ iostream
 Complex.h
 D:/ClionProjects/CPP/ex3/Complex.h
 
-D:/ClionProjects/CPP/ex3/tester.cpp
-Matrix.hpp
-D:/ClionProjects/CPP/ex3/Matrix.hpp
+D:/ClionProjects/CPP/ex3/exceptionTesterEx3.cpp
 iostream
 -
-sstream
+Matrix.hpp
+D:/ClionProjects/CPP/ex3/Matrix.hpp
+vector
 -
 

@@ -10,7 +10,8 @@ int main()
 
     vector<int> bla2 = {1, 2, 3, 4, 5, 6, 7,8,9};
     Matrix<int> bla(3, 3, bla2);
-    bla(2,100) = 1000;
+
+    //    bla(2,100) = 1000;
 
 
     return 0;
