@@ -123,32 +123,86 @@ practice/fast:
 	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/build
 .PHONY : practice/fast
 
-inheritence2.o: inheritence2.cpp.o
+eyal_test_1.o: eyal_test_1.cpp.o
 
-.PHONY : inheritence2.o
+.PHONY : eyal_test_1.o
 
 # target to build an object file
-inheritence2.cpp.o:
-	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/inheritence2.cpp.o
-.PHONY : inheritence2.cpp.o
+eyal_test_1.cpp.o:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_1.cpp.o
+.PHONY : eyal_test_1.cpp.o
 
-inheritence2.i: inheritence2.cpp.i
+eyal_test_1.i: eyal_test_1.cpp.i
 
-.PHONY : inheritence2.i
+.PHONY : eyal_test_1.i
 
 # target to preprocess a source file
-inheritence2.cpp.i:
-	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/inheritence2.cpp.i
-.PHONY : inheritence2.cpp.i
+eyal_test_1.cpp.i:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_1.cpp.i
+.PHONY : eyal_test_1.cpp.i
 
-inheritence2.s: inheritence2.cpp.s
+eyal_test_1.s: eyal_test_1.cpp.s
 
-.PHONY : inheritence2.s
+.PHONY : eyal_test_1.s
 
 # target to generate assembly for a file
-inheritence2.cpp.s:
-	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/inheritence2.cpp.s
-.PHONY : inheritence2.cpp.s
+eyal_test_1.cpp.s:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_1.cpp.s
+.PHONY : eyal_test_1.cpp.s
+
+eyal_test_2.o: eyal_test_2.cpp.o
+
+.PHONY : eyal_test_2.o
+
+# target to build an object file
+eyal_test_2.cpp.o:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_2.cpp.o
+.PHONY : eyal_test_2.cpp.o
+
+eyal_test_2.i: eyal_test_2.cpp.i
+
+.PHONY : eyal_test_2.i
+
+# target to preprocess a source file
+eyal_test_2.cpp.i:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_2.cpp.i
+.PHONY : eyal_test_2.cpp.i
+
+eyal_test_2.s: eyal_test_2.cpp.s
+
+.PHONY : eyal_test_2.s
+
+# target to generate assembly for a file
+eyal_test_2.cpp.s:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_2.cpp.s
+.PHONY : eyal_test_2.cpp.s
+
+eyal_test_3.o: eyal_test_3.cpp.o
+
+.PHONY : eyal_test_3.o
+
+# target to build an object file
+eyal_test_3.cpp.o:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_3.cpp.o
+.PHONY : eyal_test_3.cpp.o
+
+eyal_test_3.i: eyal_test_3.cpp.i
+
+.PHONY : eyal_test_3.i
+
+# target to preprocess a source file
+eyal_test_3.cpp.i:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_3.cpp.i
+.PHONY : eyal_test_3.cpp.i
+
+eyal_test_3.s: eyal_test_3.cpp.s
+
+.PHONY : eyal_test_3.s
+
+# target to generate assembly for a file
+eyal_test_3.cpp.s:
+	$(MAKE) -f CMakeFiles/practice.dir/build.make CMakeFiles/practice.dir/eyal_test_3.cpp.s
+.PHONY : eyal_test_3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... practice"
-	@echo "... inheritence2.o"
-	@echo "... inheritence2.i"
-	@echo "... inheritence2.s"
+	@echo "... eyal_test_1.o"
+	@echo "... eyal_test_1.i"
+	@echo "... eyal_test_1.s"
+	@echo "... eyal_test_2.o"
+	@echo "... eyal_test_2.i"
+	@echo "... eyal_test_2.s"
+	@echo "... eyal_test_3.o"
+	@echo "... eyal_test_3.i"
+	@echo "... eyal_test_3.s"
 .PHONY : help
 
 

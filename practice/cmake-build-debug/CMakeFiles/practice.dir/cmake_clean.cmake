@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/practice.dir/inheritence2.cpp.o"
+  "CMakeFiles/practice.dir/eyal_test_1.cpp.o"
+  "CMakeFiles/practice.dir/eyal_test_2.cpp.o"
+  "CMakeFiles/practice.dir/eyal_test_3.cpp.o"
   "practice.pdb"
   "practice"
 )

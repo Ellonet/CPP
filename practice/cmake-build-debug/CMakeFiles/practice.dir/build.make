@@ -57,30 +57,60 @@ include CMakeFiles/practice.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/practice.dir/flags.make
 
-CMakeFiles/practice.dir/inheritence2.cpp.o: CMakeFiles/practice.dir/flags.make
-CMakeFiles/practice.dir/inheritence2.cpp.o: ../inheritence2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice.dir/inheritence2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practice.dir/inheritence2.cpp.o -c /cs/usr/ellonet/CLionProjects/practice/inheritence2.cpp
+CMakeFiles/practice.dir/eyal_test_1.cpp.o: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/eyal_test_1.cpp.o: ../eyal_test_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/practice.dir/eyal_test_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practice.dir/eyal_test_1.cpp.o -c /cs/usr/ellonet/CLionProjects/practice/eyal_test_1.cpp
 
-CMakeFiles/practice.dir/inheritence2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice.dir/inheritence2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/CLionProjects/practice/inheritence2.cpp > CMakeFiles/practice.dir/inheritence2.cpp.i
+CMakeFiles/practice.dir/eyal_test_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice.dir/eyal_test_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/CLionProjects/practice/eyal_test_1.cpp > CMakeFiles/practice.dir/eyal_test_1.cpp.i
 
-CMakeFiles/practice.dir/inheritence2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice.dir/inheritence2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/CLionProjects/practice/inheritence2.cpp -o CMakeFiles/practice.dir/inheritence2.cpp.s
+CMakeFiles/practice.dir/eyal_test_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice.dir/eyal_test_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/CLionProjects/practice/eyal_test_1.cpp -o CMakeFiles/practice.dir/eyal_test_1.cpp.s
+
+CMakeFiles/practice.dir/eyal_test_2.cpp.o: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/eyal_test_2.cpp.o: ../eyal_test_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/practice.dir/eyal_test_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practice.dir/eyal_test_2.cpp.o -c /cs/usr/ellonet/CLionProjects/practice/eyal_test_2.cpp
+
+CMakeFiles/practice.dir/eyal_test_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice.dir/eyal_test_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/CLionProjects/practice/eyal_test_2.cpp > CMakeFiles/practice.dir/eyal_test_2.cpp.i
+
+CMakeFiles/practice.dir/eyal_test_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice.dir/eyal_test_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/CLionProjects/practice/eyal_test_2.cpp -o CMakeFiles/practice.dir/eyal_test_2.cpp.s
+
+CMakeFiles/practice.dir/eyal_test_3.cpp.o: CMakeFiles/practice.dir/flags.make
+CMakeFiles/practice.dir/eyal_test_3.cpp.o: ../eyal_test_3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/practice.dir/eyal_test_3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/practice.dir/eyal_test_3.cpp.o -c /cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp
+
+CMakeFiles/practice.dir/eyal_test_3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/practice.dir/eyal_test_3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp > CMakeFiles/practice.dir/eyal_test_3.cpp.i
+
+CMakeFiles/practice.dir/eyal_test_3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/practice.dir/eyal_test_3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp -o CMakeFiles/practice.dir/eyal_test_3.cpp.s
 
 # Object files for target practice
 practice_OBJECTS = \
-"CMakeFiles/practice.dir/inheritence2.cpp.o"
+"CMakeFiles/practice.dir/eyal_test_1.cpp.o" \
+"CMakeFiles/practice.dir/eyal_test_2.cpp.o" \
+"CMakeFiles/practice.dir/eyal_test_3.cpp.o"
 
 # External object files for target practice
 practice_EXTERNAL_OBJECTS =
 
-practice: CMakeFiles/practice.dir/inheritence2.cpp.o
+practice: CMakeFiles/practice.dir/eyal_test_1.cpp.o
+practice: CMakeFiles/practice.dir/eyal_test_2.cpp.o
+practice: CMakeFiles/practice.dir/eyal_test_3.cpp.o
 practice: CMakeFiles/practice.dir/build.make
 practice: CMakeFiles/practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

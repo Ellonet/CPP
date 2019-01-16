@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cs/usr/ellonet/CLionProjects/practice/inheritence2.cpp">
+		<Unit filename="/cs/usr/ellonet/CLionProjects/practice/eyal_test_1.cpp">
+			<Option target="practice"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/CLionProjects/practice/eyal_test_2.cpp">
+			<Option target="practice"/>
+		</Unit>
+		<Unit filename="/cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp">
 			<Option target="practice"/>
 		</Unit>
 		<Unit filename="/cs/usr/ellonet/CLionProjects/practice/CMakeLists.txt">

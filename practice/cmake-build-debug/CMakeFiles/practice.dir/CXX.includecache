@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/cs/usr/ellonet/CLionProjects/practice/template.cpp
+/cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp
 iostream
 -
-cmath
--
-
-/cs/usr/ellonet/CLionProjects/practice/template_main.cpp
-template.cpp
-/cs/usr/ellonet/CLionProjects/practice/template.cpp
 
