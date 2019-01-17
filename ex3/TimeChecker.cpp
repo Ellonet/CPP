@@ -7,7 +7,7 @@
 #include <iostream>
 #include <stack>
 #include "eigen3/Eigen/Dense"
-//#include <Eigen/Dense>
+#include <Eigen/Dense>
 
 using namespace std;
 

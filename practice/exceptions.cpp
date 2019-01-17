@@ -10,56 +10,83 @@
 using namespace std;
 
 
-class badUsage : public runtime_error {
+class badUsage : public runtime_error
+{
 public:
-    explicit badUsage(const char *message) : runtime_error(message) {}
+    explicit badUsage(const char *message) : runtime_error(message)
+    {}
 };
 
-class stupid : logic_error {
+class stupid : public logic_error
+{
 public:
-    explicit stupid(const char *message) : logic_error(message) {}
+    explicit stupid(const char *message) : logic_error(message)
+    {}
 };
 
 
-class suck {
+class suck
+{
 private:
     string arr[5];
     int nothing;
-public:
     vector<int> positives;
+public:
 
-    explicit suck(int x, string bla) : nothing(x) {
-        for (auto &i : arr) {
-            i = bla;
-        }
+    suck() try
+    {
+        positives.push_back(100);
+        throw (bad_alloc());
+        nothing = 100;
+    }
+    catch (bad_alloc &e)
+    {
+        throw stupid("i got you babe");
     }
 
-    string do_shit(int i) {
-        string res;
-        try {
-            res = arr[i];
+    explicit suck(int x, string bla) : nothing(x)
+    {
+        for (auto &i : arr)
+        {
+            i = bla;
         }
-        catch (exception &e) {
-            throw badUsage("ah ha!!!");
+        positives.push_back(0);
+    }
+
+    string do_shit(int i)
+    {
+        if (i < 0 || i > 4)
+        {
+            throw badUsage("you suck!!!");
         }
-        return res;
+        return arr[i];
     }
 };
 
-int main() {
+int main()
+{
+//    test -------------------- regualar exceptions -------------------- //
     suck lala(3, "silly nilly");
-
     string shit;
-    try {
-        shit = lala.do_shit(10);
+    try
+    {
+        shit = lala.do_shit(13);
     }
-//    catch (...) {
-//        cout << "here!" << endl;
-//
-    catch (exception &b) {
-        cerr << b.what();
+    catch (exception &b)
+    {
+        cerr << b.what() << endl;
     }
 
+//    test -------------------- constructor exceptions -------------------- //
+
+    try
+    {
+        suck bad;
+        cout << "yo";
+    } catch (logic_error &e)
+    {
+        cerr << e.what() << endl;
+    }
 
     return 0;
 }

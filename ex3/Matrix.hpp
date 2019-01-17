@@ -75,9 +75,14 @@ public:
      * @param rows - unsigned int
      * @param cols - unsigned int
      */
-    Matrix(const unsigned int rows, const unsigned int cols) try : _colNum(cols), _rowNum(rows),
-                                                                   _matrix(rows * cols, 0)
-    {}
+    Matrix(const int rows, const int cols) try : _colNum((unsigned) cols), _rowNum((unsigned) rows),
+                                                 _matrix(rows * cols, 0)
+    {
+        if (cols <= 0 || rows <= 0)
+        {
+            throw MatrixException("hahahahaha");
+        }
+    }
     catch (exception &e)
     {
         throw MatrixException("Error - initialization failed due to allocation fail.");
@@ -96,9 +101,14 @@ public:
      * @param cols - unsigned int
      * @param cells - a vector
      */
-    Matrix(const unsigned int rows, const unsigned int cols, const vector<T> &cells) : _colNum(cols),
-                                                                                       _rowNum(rows)
+    Matrix(const int rows, const int cols, const vector<T> &cells) : _colNum((unsigned) cols),
+                                                                     _rowNum((unsigned) rows)
     {
+        if (cols <= 0 || rows <= 0)
+        {
+            throw MatrixException("Error - could'nt initialize a matrix with the given dimensions");
+        }
+
         for (auto &i : cells)
         {
             _matrix.push_back(i);
@@ -145,7 +155,7 @@ public:
         vector<T> res;
         if (other._colNum != _colNum || other._rowNum != _rowNum)
         {
-            throw MatrixException("Error - Unmatching dimensions");
+            throw MatrixException("Error - Unmatching dimensions in operator +");
         }
         for (unsigned int i = 0; i < _rowNum * _colNum; ++i)
         {
@@ -165,7 +175,7 @@ public:
         vector<T> res;
         if (other._colNum != _colNum || other._rowNum != _rowNum)
         {
-            throw MatrixException("Error - Unmatching dimensions");
+            throw MatrixException("Error - Unmatching dimensions in operator -");
         }
         for (unsigned int i = 0; i < _rowNum * _colNum; ++i)
         {
@@ -186,7 +196,7 @@ public:
         Matrix<T> temp;
         if (_colNum != other._rowNum)
         {
-            throw MatrixException("Error - Unmatching dimensions");
+            throw MatrixException("Error - Unmatching dimensions in operator *");
         }
         for (unsigned int i = 0; i < _rowNum; ++i)
         {
@@ -301,8 +311,7 @@ public:
     /**
      * @return an iterator for the first T object in the matrix
      */
-//    const_iterator begin() const
-    typename std::vector<T>::const_iterator begin() const
+    const_iterator begin() const
     { return _matrix.cbegin(); }
 
     /**

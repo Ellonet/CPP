@@ -1,0 +1,24 @@
+The desired table:
+
+
+        |       50x50       |       500x500     |
+        |---------------------------------------|
+        |   +   |     *     |   +    |     *    |
+--------|---------------------------------------|
+        |       |           |        |          |
+Matrix  |   0   |  0.001995 |   0    |  1.87459 |
+        |       |           |        |          |
+--------|---------------------------------------|
+        |       |           |        |          |
+Eigen   |   0   |  0.000996 |   0    | 0.000408 |
+        |       |           |        |          |
+--------|---------------------------------------|
+
+note - in some runs, my Matrix is got time of 1.37975 .
+
+answers:
+
+1.  The Eigen is faster then this library due to a more efficient programming of the mult and add
+    while i used the naive algorithm.
+
+2.  There is a difference - the Multipication takes longer due to an additional "for" loop.

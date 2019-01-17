@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cs/usr/ellonet/CLionProjects/practice/eyal_test_1.cpp" "/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles/practice.dir/eyal_test_1.cpp.o"
-  "/cs/usr/ellonet/CLionProjects/practice/eyal_test_2.cpp" "/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles/practice.dir/eyal_test_2.cpp.o"
-  "/cs/usr/ellonet/CLionProjects/practice/eyal_test_3.cpp" "/cs/usr/ellonet/CLionProjects/practice/cmake-build-debug/CMakeFiles/practice.dir/eyal_test_3.cpp.o"
+  "D:/ClionProjects/CPP/practice/coversions.cpp" "D:/ClionProjects/CPP/practice/cmake-build-debug/CMakeFiles/practice.dir/coversions.cpp.obj"
+  "D:/ClionProjects/CPP/practice/midterm_stl.cpp" "D:/ClionProjects/CPP/practice/cmake-build-debug/CMakeFiles/practice.dir/midterm_stl.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

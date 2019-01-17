@@ -8,16 +8,17 @@
 using namespace std;
 
 
-class Bla {
-public:
-    Bla(string name, int len) : _name(name), _len(len), _vec(_len, 0) {}
+        class Bla {
+        public:
+            Bla(string name, int len) : _name(move(name)), _len(len), _vec(_len, 0) {}
+//            Bla(string name, int len) : _name(name), _len(len), _vec(_len, 0) {}
 
-    Bla(Bla &other) = default;
+            Bla(Bla &other) = default;
 
-    Bla(Bla &&other) noexcept {
-        _vec = other._vec;
-        _len = other._len;
-        _name = other._name;
+            Bla(Bla &&other) noexcept {
+                _vec = other._vec;
+                _len = other._len;
+                _name = other._name;
 
         other._vec = vector<int>(0);
         other._len = 0;
